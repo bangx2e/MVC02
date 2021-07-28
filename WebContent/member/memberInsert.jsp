@@ -4,7 +4,7 @@
 <%
 	// Request에서 넘어오는 데이터의 인코딩을 UTF-8로 설정한다
 		request.setCharacterEncoding("UTF-8");
-		// 1. 파라메터 수집 (VO)
+		// 1. 파라메터 수집 (VO) 
 		String id = request.getParameter("id");
 		String pass = request.getParameter("pass");
 		String name = request.getParameter("name");
